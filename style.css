@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#shopping-list {
+  margin: 5% 5%;
+  padding: 5% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: roboto;
+}
+
+.header {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.header-btn {
+  margin: 20px;
+}
+
+p {
+  margin-top: 20px;
+  padding: 20px;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.input-area {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.add-item:disabled {
+  background-color: gray;
+  color: white;
+}
+
+.add-item {
+  border: none;
+  margin: 0 10px 0 20px;
+  /* padding: auto; */
+  color: #fff;
+  text-decoration: none;
+  background-color: #008cba;
+  width: 35%;
+  border-radius: 0.25rem;
+}
+
+ul {
+  margin-top: 50px;
+  padding: 20px;
+}
